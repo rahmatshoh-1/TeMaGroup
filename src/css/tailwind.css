@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: '../fonts/gteestiprodisplay.otf', system-ui, sans-serif;
+    }
+  }
+
+  .swiper {
+    width: auto;
+   }
+   .swiper-pagination-bullet-active{
+    background: #D73CBE !important;
+    width: 16px;
+   }
+   .swiper-pagination-bullet{
+      background: #D73CBE !important;
+      width: 16px;
+   }
