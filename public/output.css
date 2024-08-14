@@ -870,10 +870,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -895,7 +891,7 @@ video {
 }
 
   .swiper {
-    width: auto;
+    width: 100%;
    }
    .swiper-pagination-bullet-active{
     background: #D73CBE !important;
@@ -904,6 +900,9 @@ video {
    .swiper-pagination-bullet{
       background: #D73CBE !important;
       width: 16px;
+   }
+   .swiper-button-next, .swiper-button-prev{
+    display: none !important;
    }
    .hover\:text-transparent:hover {
   color: transparent;
